@@ -440,7 +440,7 @@ int sys_uname(void* buf)
 
   strcpy(kbuf + 0*sz, "Proxy Kernel");
   strcpy(kbuf + 1*sz, "");
-  strcpy(kbuf + 2*sz, "4.15.0");
+  strcpy(kbuf + 2*sz, "5.11.21");
   strcpy(kbuf + 3*sz, "");
   strcpy(kbuf + 4*sz, "");
   strcpy(kbuf + 5*sz, "");
